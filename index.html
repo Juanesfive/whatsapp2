@@ -13,7 +13,7 @@
   </head>
 
   <body>
-    <div class="Inicio">
+    <div class="Container">
       <div class="menuSuperior">
         <span class="WhatsApp__titulo">WhatsApp</span>
         <div class="iconos">
@@ -22,17 +22,15 @@
         </div>
       </div>
 
-      <div class="navegacion">
-        <input type="radio" name="boton" id="Chats" checked />
-        <input type="radio" name="boton" id="Estados" />
-        <input type="radio" name="boton" id="Llamadas" />
-      </div>
-
       <div class="Menu">
-        <label class="Chats" for="Chats">Chats</label>
-        <label class="Estados" for="Estados">Estados</label>
-        <label class="Llamadas" for="Llamadas">Llamadas</label>
-        <div class="transicion"></div>
+        <input type="radio" id="chats-tab" name="tab" checked />
+        <label for="chats-tab" class="tabs Chats">Chats</label>
+
+        <input type="radio" id="estados-tab" name="tab" />
+        <label for="estados-tab" class="tabs Estados">Estados</label>
+
+        <input type="radio" id="llamadas-tab" name="tab" />
+        <label for="llamadas-tab" class="tabs Llamadas">Llamadas</label>
       </div>
 
       <div class="chats-container">
@@ -45,7 +43,7 @@
           />
           <div class="informacion">
             <div class="nombre">Juan</div>
-            <div class="mensaje">hola amigo</div>
+            <div class="mensaje">hola. Como Estas?</div>
           </div>
           <div class="hora-mensaje">11:42</div>
         </div>
@@ -53,139 +51,139 @@
         <!-- Chat 2 -->
         <div class="chats">
           <img
-            src="https://img.freepik.com/vector-gratis/profesional-unete-al-equipo-foto-perfil-linkedin_742173-11941.jpg?t=st=1723825402~exp=1723829002~hmac=2bd7d7fa2479199fec4b99dee3102e3af86012e9ddc1316b20344e25e4c01a60&w=826"
+            src="https://images.pexels.com/photos/14807470/pexels-photo-14807470.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
             alt="foto de perfil"
             class="contenedorDeImagen"
           />
           <div class="informacion">
-            <div class="nombre">Juan</div>
-            <div class="mensaje">hola amigo</div>
+            <div class="nombre">Diego</div>
+            <div class="mensaje">Mañana no?</div>
           </div>
-          <div class="hora-mensaje">11:42</div>
+          <div class="hora-mensaje">17:05</div>
         </div>
 
         <!-- chat 3 -->
 
         <div class="chats">
           <img
-            src="https://img.freepik.com/vector-gratis/profesional-unete-al-equipo-foto-perfil-linkedin_742173-11941.jpg?t=st=1723825402~exp=1723829002~hmac=2bd7d7fa2479199fec4b99dee3102e3af86012e9ddc1316b20344e25e4c01a60&w=826"
+            src="https://img.freepik.com/foto-gratis/retrato-hombre-reir_23-2148859448.jpg?t=st=1724355817~exp=1724359417~hmac=380c7168a9d38c93961f9f28a92ba756c905e48b111a7b502ee30939080f28e1&w=740"
             alt="foto de perfil"
             class="contenedorDeImagen"
           />
           <div class="informacion">
-            <div class="nombre">Juan</div>
-            <div class="mensaje">hola amigo</div>
+            <div class="nombre">Santiago</div>
+            <div class="mensaje">Gracias por ayudarme</div>
           </div>
-          <div class="hora-mensaje">11:42</div>
+          <div class="hora-mensaje">8:00</div>
         </div>
 
         <!-- chat 4 -->
         <div class="chats">
           <img
-            src="https://img.freepik.com/vector-gratis/profesional-unete-al-equipo-foto-perfil-linkedin_742173-11941.jpg?t=st=1723825402~exp=1723829002~hmac=2bd7d7fa2479199fec4b99dee3102e3af86012e9ddc1316b20344e25e4c01a60&w=826"
+            src="https://img.freepik.com/foto-gratis/joven-barbudo-camisa-rayas_273609-5677.jpg?t=st=1724355848~exp=1724359448~hmac=784fdcf9fae7218d76b71698a43fcde5959ead5b7ffbfe81ea16adcea001ef4f&w=740"
             alt="foto de perfil"
             class="contenedorDeImagen"
           />
           <div class="informacion">
-            <div class="nombre">Juan</div>
-            <div class="mensaje">hola amigo</div>
+            <div class="nombre">Jeff</div>
+            <div class="mensaje">Nos vemos</div>
           </div>
-          <div class="hora-mensaje">11:42</div>
+          <div class="hora-mensaje">17:42</div>
         </div>
 
         <!-- chat 5 -->
 
         <div class="chats">
           <img
-            src="https://img.freepik.com/vector-gratis/profesional-unete-al-equipo-foto-perfil-linkedin_742173-11941.jpg?t=st=1723825402~exp=1723829002~hmac=2bd7d7fa2479199fec4b99dee3102e3af86012e9ddc1316b20344e25e4c01a60&w=826"
+            src="https://img.freepik.com/foto-gratis/retrato-hombre-blanco-aislado_53876-40306.jpg?t=st=1724355931~exp=1724359531~hmac=dee89611923257c9b7efa2ea7ee6bef7efe4b48e6ff2635f00931dea8a634484&w=740"
             alt="foto de perfil"
             class="contenedorDeImagen"
           />
           <div class="informacion">
-            <div class="nombre">Juan</div>
-            <div class="mensaje">hola amigo</div>
+            <div class="nombre">Victor</div>
+            <div class="mensaje">Toca mañana esa actividad?</div>
           </div>
-          <div class="hora-mensaje">11:42</div>
+          <div class="hora-mensaje">15:42</div>
         </div>
 
         <!-- chat 6 -->
 
         <div class="chats">
           <img
-            src="https://img.freepik.com/vector-gratis/profesional-unete-al-equipo-foto-perfil-linkedin_742173-11941.jpg?t=st=1723825402~exp=1723829002~hmac=2bd7d7fa2479199fec4b99dee3102e3af86012e9ddc1316b20344e25e4c01a60&w=826"
+            src="https://img.freepik.com/foto-gratis/retrato-hermoso-chico-barbudo-rubio-maduro-peinado-moda-camisa-gris-informal-sonriendo_176420-15741.jpg?t=st=1724355955~exp=1724359555~hmac=8f2beae451f2cca2b1dcc7dfea1d3048e80dafea46071899edda723b3ad867f6&w=740"
             alt="foto de perfil"
             class="contenedorDeImagen"
           />
           <div class="informacion">
-            <div class="nombre">Juan</div>
-            <div class="mensaje">hola amigo</div>
+            <div class="nombre">Dylan</div>
+            <div class="mensaje">Hola Moto</div>
           </div>
-          <div class="hora-mensaje">11:42</div>
+          <div class="hora-mensaje">9:42</div>
         </div>
 
         <!-- chat 7 -->
         <div class="chats">
           <img
-            src="https://img.freepik.com/vector-gratis/profesional-unete-al-equipo-foto-perfil-linkedin_742173-11941.jpg?t=st=1723825402~exp=1723829002~hmac=2bd7d7fa2479199fec4b99dee3102e3af86012e9ddc1316b20344e25e4c01a60&w=826"
+            src="https://img.freepik.com/foto-gratis/hombre-barbudo-elegante-que-disgusto-mirada-pie-tela-casual-contra-pared-blanca-joven-tiene-algunos-problemas-mirar-insatisfaccion-descontento_176420-10258.jpg?t=st=1724355979~exp=1724359579~hmac=6465ae75db66942954e5c2a55a1c1d6867424d72740cb43dbbfcc0ff22b49e43&w=740"
             alt="foto de perfil"
             class="contenedorDeImagen"
           />
           <div class="informacion">
-            <div class="nombre">Juan</div>
-            <div class="mensaje">hola amigo</div>
+            <div class="nombre">Andres</div>
+            <div class="mensaje">
+              donde queda eso que me menciono la vez pasada
+            </div>
           </div>
-          <div class="hora-mensaje">11:42</div>
+          <div class="hora-mensaje">16:02</div>
         </div>
 
         <!-- chat 8 -->
 
         <div class="chats">
           <img
-            src="https://img.freepik.com/vector-gratis/profesional-unete-al-equipo-foto-perfil-linkedin_742173-11941.jpg?t=st=1723825402~exp=1723829002~hmac=2bd7d7fa2479199fec4b99dee3102e3af86012e9ddc1316b20344e25e4c01a60&w=826"
+            src="https://img.freepik.com/foto-gratis/triste-disgustado-triste-hombre-joven-barbudo-frunce-labios-descontento-ofendido-malos-comentarios-seguidores-expresa-negatividad-usa-chaqueta-roja-contra-pared-blanca_273609-15494.jpg?t=st=1724356005~exp=1724359605~hmac=29e3b22efcb0e2345d4359f7447f7872d4d0c20357acafd4794a17b1a99a8ff4&w=740"
             alt="foto de perfil"
             class="contenedorDeImagen"
           />
           <div class="informacion">
-            <div class="nombre">Juan</div>
-            <div class="mensaje">hola amigo</div>
+            <div class="nombre">Harol</div>
+            <div class="mensaje">Haste este corte de cabello</div>
           </div>
-          <div class="hora-mensaje">11:42</div>
+          <div class="hora-mensaje">11:02</div>
         </div>
 
         <!-- chat 9 -->
 
         <div class="chats">
           <img
-            src="https://img.freepik.com/vector-gratis/profesional-unete-al-equipo-foto-perfil-linkedin_742173-11941.jpg?t=st=1723825402~exp=1723829002~hmac=2bd7d7fa2479199fec4b99dee3102e3af86012e9ddc1316b20344e25e4c01a60&w=826"
+            src="https://img.freepik.com/foto-gratis/disparo-cabeza-hombre-atractivo-sonriendo-complacido-mirando-intrigado-pie-sobre-fondo-azul_1258-65733.jpg?t=st=1724356053~exp=1724359653~hmac=4a6d58670c3e787bddd0e6ca1e9169054514685e787eb10518a2c1a3b80138af&w=740"
             alt="foto de perfil"
             class="contenedorDeImagen"
           />
           <div class="informacion">
-            <div class="nombre">Juan</div>
-            <div class="mensaje">hola amigo</div>
+            <div class="nombre">Daza</div>
+            <div class="mensaje">Te acuerdas de esa vez en la cancha</div>
           </div>
-          <div class="hora-mensaje">11:42</div>
+          <div class="hora-mensaje">20:00</div>
         </div>
 
         <!-- chat 10 -->
 
         <div class="chats">
           <img
-            src="https://img.freepik.com/vector-gratis/profesional-unete-al-equipo-foto-perfil-linkedin_742173-11941.jpg?t=st=1723825402~exp=1723829002~hmac=2bd7d7fa2479199fec4b99dee3102e3af86012e9ddc1316b20344e25e4c01a60&w=826"
+            src="https://images.pexels.com/photos/27787843/pexels-photo-27787843/free-photo-of-hombre-gente-musica-musico.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
             alt="foto de perfil"
             class="contenedorDeImagen"
           />
           <div class="informacion">
             <div class="nombre">Juan</div>
-            <div class="mensaje">hola amigo</div>
+            <div class="mensaje">Llegastes hasta aqui?</div>
           </div>
-          <div class="hora-mensaje">11:42</div>
+          <div class="hora-mensaje">00:00</div>
         </div>
-      </div>
 
-      <!-- seccion de Estados -->
+        <!-- seccion de Estados -->
 
-      <div class="contenedor-estados">
         <div class="estado-item mi-estado">
           <img
             src="https://img.freepik.com/foto-gratis/retro-hombre-moderno_23-2147960990.jpg?t=st=1724275978~exp=1724279578~hmac=0bda38427db42827adec99d6776e0518971a65b32228043b17d65511a21dbc1e&w=740"
@@ -256,44 +254,47 @@
           <span class="bx bx-pencil"></span>
           <span class="bx bx-camera"></span>
         </div>
-      </div>
-      <div class="crear-llamada">
-        <div class="crear-llamada-icono">&#128279;</div>
-        <div class="crear-llamada-texto">
-          <div class="crear-llamada-titulo">Crear enlace de llamada</div>
-          <div class="crear-llamada-subtitulo">
-            Comparta un enlace para su convocatoria
+
+        <div class="crear-llamada">
+          <div class="crear-llamada-icono">&#128279;</div>
+          <div class="crear-llamada-texto">
+            <div class="crear-llamada-titulo">Crear enlace de llamada</div>
+            <div class="crear-llamada-subtitulo">
+              Comparta un enlace para su convocatoria
+            </div>
           </div>
         </div>
-      </div>
-      <div class="Llamadas-reciente">Recientes</div>
-      <div class="llamada-item">
-        <div class="lamada-avatar">
-          <img
-            src="https://img.freepik.com/foto-gratis/primer-plano-hombre-barbudo-riendo-feliz-sonriendo_176420-18793.jpg?t=st=1724280269~exp=1724283869~hmac=bd5a3d86efd7f2ef54d1e5c566c06bcc8b68b242b051870338030111d036379a&w=740"
-            alt="fotoperfil"
-            class="imagen-estado"
-          />
+        <div class="Llamadas-reciente">Recientes</div>
+        <div class="llamada-item">
+          <div class="lamada-avatar">
+            <img
+              src="https://img.freepik.com/foto-gratis/primer-plano-hombre-barbudo-riendo-feliz-sonriendo_176420-18793.jpg?t=st=1724280269~exp=1724283869~hmac=bd5a3d86efd7f2ef54d1e5c566c06bcc8b68b242b051870338030111d036379a&w=740"
+              alt="fotoperfil"
+              class="imagen-estado"
+            />
+          </div>
+          <div class="lamada-info">
+            <div class="llamada-nombre">KOAJ</div>
+            <div class="bx bx-trending-up llamada-fecha">21/08/2024,17:46</div>
+          </div>
+          <div class="bx bxs-phone-call llamada-icon"></div>
         </div>
-        <div class="lamada-info">
-          <div class="llamada-nombre">KOAJ</div>
-          <div class="bx bx-trending-up llamada-fecha">21/08/2024,17:46</div>
+        <div class="llamada-item">
+          <div class="llamada-avatar">
+            <img
+              src="https://img.freepik.com/foto-gratis/primer-plano-hombre-barbudo-riendo-feliz-sonriendo_176420-18793.jpg?t=st=1724280269~exp=1724283869~hmac=bd5a3d86efd7f2ef54d1e5c566c06bcc8b68b242b051870338030111d036379a&w=740"
+              alt="Monica"
+              class="imagen-estado"
+            />
+          </div>
+          <div class="llamada-info">
+            <div class="llamada-nombre">Monica Gallego</div>
+            <div class="bx bx-trending-down llamada-fecha">
+              21/08/2024, 17:49
+            </div>
+          </div>
+          <div class="bx bxs-phone-call llamada-icon"></div>
         </div>
-        <div class="bx bxs-phone-call llamada-icon"></div>
-      </div>
-      <div class="llamada-item">
-        <div class="llamada-avatar">
-          <img
-            src="https://img.freepik.com/foto-gratis/primer-plano-hombre-barbudo-riendo-feliz-sonriendo_176420-18793.jpg?t=st=1724280269~exp=1724283869~hmac=bd5a3d86efd7f2ef54d1e5c566c06bcc8b68b242b051870338030111d036379a&w=740"
-            alt="Monica"
-            class="imagen-estado"
-          />
-        </div>
-        <div class="llamada-info">
-          <div class="llamada-nombre">Monica Gallego</div>
-          <div class="bx bx-trending-down llamada-fecha">21/08/2024, 17:49</div>
-        </div>
-        <div class="bx bxs-phone-call llamada-icon"></div>
       </div>
     </div>
   </body>
